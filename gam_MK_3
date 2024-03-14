@@ -40,10 +40,6 @@ int numTiles3 = 0;
 int numTiles4 = 0;
 
 
-//int chutet[10] = {98,95,93,64,62,56,49,48,87,16};
-//int chuteb[10]= {78,75,73,60,19,53,11,26,24,6};
-//int ladderb[9] {1,4,9,21,28,36,51,71,80};
-//int laddert[9]= {38,14,31,42,84,44,67,91,100};
 
 int chutet[10] = {116,113,111,103,74,76,66,56,57,18};
 int chuteb[10] = {92,89,87,28,21,70,63,30,13,6};
@@ -440,8 +436,6 @@ int loop1 = 0;
 //-------------------------------------------------------------------- Game -------------------------------------------------------------
 void loop() {
 
-  // Delay or do other things as needed
-  //delay(1000);  // Adjust this delay as needed
   
   //updating the number of players playing
 //  if (loop1 == 0)
@@ -449,21 +443,7 @@ void loop() {
 //    //count = numPlayer();
 //  }
 
-//-------------------- Little Test --------------------- 
-//    for (int i = 0; i < NUM_LEDS; i++) {            
-//    leds1[i] = CRGB::Blue;
-//  }
-//  FastLED.show();
-//
-//  // Wait for 5 seconds
-//  delay(5000);
-//
-//  // Turn off all LEDs using a for loop
-//  for (int i = 0; i < NUM_LEDS; i++) {
-//    leds1[i] = CRGB::Black;
-//  }
-//  delay(1000);
-//  FastLED.show();
+
     
   
   
